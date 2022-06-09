@@ -3,12 +3,14 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
     </head>
     <style>
         html{
                 
                 box-sizing: border-box;
-                background-image: url("https://images.unsplash.com/photo-1595267374112-9ec6eb71284b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fGhpa2luZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+                background-image: url("https://images.unsplash.com/photo-1542909589-7712c6b80ed3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTA2fHxoaWtpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: fixed;
@@ -58,6 +60,10 @@
                 font-size: 20px;
                 margin-left: 350px;  
             }
+            #head-text a {
+                text-decoration: none;
+                color: white;
+            }
             #head-text h1 p h3 {
                 text-align: justify;
             }
@@ -73,6 +79,11 @@
                 padding: 10px;
                 align-items: center;
 
+            }
+            #text a{
+                text-decoration: none;
+                color: yellow;
+                font-size: 14px;
             }
             #text p{
                 color: yellow;
@@ -125,14 +136,35 @@
                 margin-left: 80px;
                 margin-right: 70px;
                 width: 60%;
+            }
+            #to h1 {
+                font-size: 18px;
+            }
+            #to p {
                 font-size: 15px;
-
             }
             #tor{
                 margin-left: 100px;
                 margin-right: 100px;
                 width: 20%;
+            }
+            #tor h1{
+                font-size: 18px;
+                color: yellow;
+                text-align: justify;
+            }
+            #tor li {
+                text-align: justify;
                 font-size: 15px;
+            }
+            #tory li {
+                text-align: justify;
+                font-size: 15px;
+            }
+            #tory h1{
+                font-size: 18px;
+                color: yellow;
+                text-align: justify;
             }
             #tory{ 
                 margin-left: 100px;
@@ -140,11 +172,17 @@
                 width: 20%;
                 font-size: 15px;
             }
-            #tory li {
-                list-style: none;
+            #pp {
+                font-size: 7px;
+                color: grey;
+                margin-top: 40px;
+            }
+            #tory a {
+                text-decoration: none;
                 font-size: 15px;
                 padding: 5px;
-                text-align: left;
+                color: white;
+                display: block;
 
             }
             #tory h1{
@@ -157,11 +195,12 @@
                 text-align: left;
             }
 
-            #tor li {
-                list-style: none;
+            #tor a {
+                text-decoration: none;
                 font-size: 15px;
                 padding: 5px;
-                text-align: left;
+                color: white;
+                display: block;
 
             }
 
@@ -177,14 +216,14 @@
                             <a href="#">Blog</a>
                         </ul>
                     <div id="head">
-                        <h2>Account</h2>
+                        <h2><i class="fas fa-sign-up"></i>Account</h2>
                     </div>
                 </nav>
             </div>
             <div id="head-text">
                 <h3>-----------A HIKING GUIDE</h3>
                 <h1>Be Prepared For The Mountain And Beyond!</h1>
-                <p>scroll down</p>
+                <a href="#">scroll down</a>
     
             </div>
         </div>
@@ -194,7 +233,7 @@
                     <p>---------Get Started</p>
                     <h1>What Level Of Hiker Are You?</h1>
                     <h4>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</h4>
-                    <p>read more</p>
+                    <a href="#">read more</a>
                 </div>
                 <div>
                     <img src="https://images.unsplash.com/photo-1533240332313-0db49b459ad6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aGlraW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"/>
@@ -208,7 +247,7 @@
                         <p>-------Hiking Essentials</p>
                         <h1>Picking The Right Hiking Gear!</h1>
                        <h4>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</h4>
-                       <p>read more</p>
+                       <a href="#">read more</a>
                     </div>
                     
             </div>
@@ -220,7 +259,7 @@
                     <p>--------Where You Go Is The Key</p>
                    <h1>Understand Your Map And Timing</h1>
                    <h4>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</h4> 
-                   <p>read more</p>
+                   <a href="#">read more</a>
                 </div>
                 <div>
                     <img src="https://images.unsplash.com/photo-1568454537842-d933259bb258?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8aGlraW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"/>
@@ -230,24 +269,20 @@
                 <div id="to">
                     <h1>MNTN</h1>
                     <p>Get out and descover your next slope,<br> mountain & Destination.</p>
-
+                    <p id="pp">Copyright 2019 MNTN,Inc.Terms & Privacy</p>
                 </div>
                 <div id="tory">
                     <h1>More on the blog</h1>
-                    <ul>
-                        <li>about MNTN</li>
-                        <li>Write us</li>
-                        <li>Contact Us</li>
-                        <li>Private Policy</li>
-                    </ul>
+                    <a href="#">about MNTN</a>
+                    <a href="#">Write us</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Private Policy</a>
                 </div>
                 <div id="tor">
                     <h1>More on MNTN</h1>
-                    <ul>
-                        <li>The Team</li>
-                        <li>Job</li>
-                        <li>Press</li>
-                    </ul>
+                    <a href="#">The Team</a>
+                    <a href="#">Job</a>
+                    <a href="#">Press</a>
                 </div>
                 
             </div>
